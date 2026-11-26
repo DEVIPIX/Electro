@@ -1,0 +1,30 @@
+name: Bug report
+description: Something does not work as documented
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Electro version
+      description: Output of `electro version`
+    validations:
+      required: true
+  - type: dropdown
+    id: transport
+    attributes:
+      label: Transport
+      options: [TCP, TCP Mux, TCP + Stealth, TCP + PCK, UDP, UDP + KCP + FEC, UDP + QUIC, WS, WSS, xDi / ICMP, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Remove tokens and IP addresses you do not want public.
+      render: shell
