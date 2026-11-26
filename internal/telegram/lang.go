@@ -42,8 +42,8 @@ var fa = map[string]string{
 	"Open": "مشاهده",
 
 	// Release announcement
-	"⬆️ Electro %s has been released (you are on %s).":                                            "⬆️ نسخه %s الکترو منتشر شد (نسخه فعلی شما %s است).",
-	"Update from the CLI: sudo electro → Update.":                                                 "برای به‌روزرسانی در ترمینال: sudo electro ← Update.",
+	"⬆️ Electro %s has been released (you are on %s).":                                             "⬆️ نسخه %s الکترو منتشر شد (نسخه فعلی شما %s است).",
+	"Update from the CLI: sudo electro → Update.":                                                  "برای به‌روزرسانی در ترمینال: sudo electro ← Update.",
 	"It saves a restore point first and rolls back by itself if the tunnel does not come back up.": "ابتدا یک نقطه بازیابی می‌سازد و اگر تونل بالا نیامد، خودش برمی‌گردد.",
 
 	// Status report
